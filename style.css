@@ -1,0 +1,115 @@
+ body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: white;
+  background: url('https://drive.google.com/uc?export=view&id=13fm1HRkE7mrUxgMitFBnCxFKErW9-hCB') no-repeat center center fixed;
+  background-size: cover;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: #ff0000;
+  text-shadow: 2px 2px #000;
+}
+
+form {
+  background: rgba(0, 0, 0, 0.85);
+  border: 2px solid #ff0000;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+textarea, input, select {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ff0000;
+  background-color: #111;
+  color: white;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post {
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid #ff0000;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  font-size: 2rem;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #ff0000;
+}
+
+.fecha {
+  font-size: 0.8rem;
+  color: gray;
+  margin-top: 5px;
+}
+
+.comentarios {
+  margin-top: 10px;
+}
+
+.comentarios input {
+  width: 70%;
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid #ff0000;
+  background-color: #111;
+  color: white;
+}
+
+.likes {
+  margin-top: 10px;
+}
+
+.likes button {
+  background: #ff4081;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.secciones {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.secciones button {
+  background: #111;
+  color: white;
+  border: 1px solid #ff0000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.secciones button:hover {
+  background-color: #ff0000;
+  color: black;
+}

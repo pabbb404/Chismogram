@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chismogram</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Chismogram</h1>
+
+  <div class="secciones">
+    <button onclick="filtrarSeccion('musica')">Música</button>
+    <button onclick="filtrarSeccion('chisme')">Chisme</button>
+    <button onclick="filtrarSeccion('tendencias')">Tendencias</button>
+  </div>
+
+  <form id="formulario">
+    <label>Usuario:</label>
+    <input type="text" id="usuario" placeholder="Tu nombre" required />
+
+    <label>Elegí tu avatar:</label>
+    <select id="avatar">
+      <option>🦊</option>
+      <option>🐱</option>
+      <option>🐸</option>
+      <option>🐵</option>
+      <option>🐺</option>
+      <option>🐼</option>
+      <option>🐶</option>
+      <option>🐯</option>
+      <option>🐷</option>
+    </select>
+
+    <label>Sección:</label>
+    <select id="seccion">
+      <option value="musica">Música</option>
+      <option value="chisme">Chisme</option>
+      <option value="tendencias">Tendencias</option>
+    </select>
+
+    <textarea id="contenido" placeholder="¿Qué estás pensando?" required></textarea>
+
+    <label>Subí una imagen (opcional):</label>
+    <input type="file" id="imagen" accept="image/*" />
+
+    <button type="submit">Publicar</button>
+  </form>
+
+  <div id="feed"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>                                <label>Usuario:</label>
+                                    <input type="text" id="usuario" placeholder="Tu nombre" required />
+
+                                        <label>Elegí tu avatar:</label>
+                                            <select id="avatar">
+                                                  <option>🦊</option>
+                                                        <option>🐱</option>
+                                                              <option>🐸</option>
+                                                                    <option>🐵</option>
+                                                                          <option>🐺</option>
+                                                                                <option>🐼</option>
+                                                                                      <option>🐶</option>
+                                                                                            <option>🐯</option>
+                                                                                                  <option>🐷</option>
+                                                                                                      </select>
+
+                                                                                                          <label>Sección:</label>
+                                                                                                              <select id="seccion">
+                                                                                                                    <option value="musica">Música</option>
+                                                                                                                          <option value="chisme">Chisme</option>
+                                                                                                                                <option value="tendencias">Tendencias</option>
+                                                                                                                                    </select>
+
+                                                                                                                                        <textarea id="contenido" placeholder="¿Qué estás pensando?" required></textarea>
+
+                                                                                                                                            <label>Subí una imagen (opcional):</label>
+                                                                                                                                                <input type="file" id="imagen" accept="image/*" />
+
+                                                                                                                                                    <button type="submit">Publicar<                                                                                                            
